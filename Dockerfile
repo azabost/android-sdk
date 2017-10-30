@@ -3,15 +3,6 @@ FROM openjdk:8
 ENV ANDROID_HOME /opt/android-sdk-linux
 
 # ------------------------------------------------------
-# --- Install required tools
-
-RUN dpkg --add-architecture i386 && \
-    apt-get update && \
-    DEBIAN_FRONTEND=noninteractive apt-get install -y libc6:i386 libstdc++6:i386 libgcc1:i386 libncurses5:i386 libz1:i386 && \
-    rm -rf /var/lib/apt/lists/*
-
-
-# ------------------------------------------------------
 # --- Download Android SDK into $ANDROID_HOME
 # You can find URL to the current version at: https://developer.android.com/studio/index.html
 
