@@ -4,8 +4,8 @@ FROM azabost/android-sdk
 #  sdkmanager --list --verbose
 
 RUN sdkmanager 'platform-tools'
-RUN sdkmanager 'platforms;android-26'
-RUN sdkmanager 'build-tools;26.0.3'
+RUN sdkmanager 'platforms;android-27'
+RUN sdkmanager 'build-tools;27.0.3'
 RUN sdkmanager 'extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.2'
 RUN sdkmanager 'extras;m2repository;com;android;support;constraint;constraint-layout;1.0.2'
 RUN sdkmanager 'extras;google;m2repository'
