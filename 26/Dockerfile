@@ -1,4 +1,4 @@
-FROM azabost/android-sdk
+FROM azabost/android-sdk:base
 
 # To get a full list of available options you can use:
 #  sdkmanager --list --verbose
