@@ -1,4 +1,4 @@
-# android-sdk-26 #
+# android-sdk:26 #
 
 [Docker Hub](https://hub.docker.com/r/azabost/android-sdk/)
 
