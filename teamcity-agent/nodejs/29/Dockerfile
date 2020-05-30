@@ -1,4 +1,4 @@
-FROM azabost/android-sdk-teamcity-agent-29
+FROM azabost/android-sdk:teamcity-agent-29
 
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 RUN apt-get install -y nodejs \

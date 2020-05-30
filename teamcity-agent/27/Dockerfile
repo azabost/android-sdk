@@ -1,4 +1,4 @@
-FROM azabost/android-sdk-teamcity-agent
+FROM azabost/android-sdk:teamcity-agent-base
 
 # To get a full list of available options you can use:
 #  sdkmanager --list --verbose
