@@ -5,7 +5,7 @@ FROM azabost/android-sdk:base-jdk11
 
 RUN sdkmanager 'platform-tools'
 RUN sdkmanager 'platforms;android-30'
-RUN sdkmanager 'build-tools;30.0.2'
+RUN sdkmanager 'build-tools;30.0.3'
 RUN sdkmanager 'extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.2'
 RUN sdkmanager 'extras;m2repository;com;android;support;constraint;constraint-layout;1.0.2'
 RUN sdkmanager 'extras;google;m2repository'
