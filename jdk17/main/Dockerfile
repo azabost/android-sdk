@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM eclipse-temurin:17
 
 ENV ANDROID_HOME /opt/android-sdk-linux
 
