@@ -19,6 +19,8 @@ so that they can be used to build Android apps.
 | jdk11-sdk30 | /jdk11/30/Dockerfile   | 11  | 30          |                   |
 | jdk11-sdk31 | /jdk11/31/Dockerfile   | 11  | 31          |                   |
 | jdk11-sdk32 | /jdk11/32/Dockerfile   | 11  | 32          |                   |
+| base-jdk17  | /jdk17/main/Dockerfile | 17  | -           |                   |
+| jdk17-sdk33 | /jdk17/33/Dockerfile   | 17  | 33          |                   |
 
 # Tags with TeamCity agents, Android SDK and NodeJS #
 
