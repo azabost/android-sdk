@@ -10,7 +10,7 @@ USER root
 RUN mkdir -p ${ANDROID_HOME}/cmdline-tools
 
 RUN cd ${ANDROID_HOME}/cmdline-tools && \
-    curl -L https://dl.google.com/android/repository/commandlinetools-linux-9477386_latest.zip -o android_tools.zip && \
+    curl -L https://dl.google.com/android/repository/commandlinetools-linux-10406996_latest.zip -o android_tools.zip && \
     jar xf android_tools.zip && \
     rm android_tools.zip && \
     mv cmdline-tools latest && \
