@@ -5,23 +5,25 @@ so that they can be used to build Android apps.
 
 # Tags with just Android SDK #
 
-| Tag         | Dockerfile             | JDK | Android SDK | Notes             |
-|:------------|:-----------------------|:----|:------------|:------------------|
-| base-jdk8   | /jdk8/main/Dockerfile  | 8   | -           | Previously `base` |
-| jdk8-sdk26  | /jdk8/26/Dockerfile    | 8   | 26          | Previously `26`   |
-| jdk8-sdk27  | /jdk8/27/Dockerfile    | 8   | 27          | Previously `27`   |
-| jdk8-sdk28  | /jdk8/28/Dockerfile    | 8   | 28          | Previously `28`   |
-| jdk8-sdk29  | /jdk8/29/Dockerfile    | 8   | 29          | Previously `29`   |
-| jdk8-sdk30  | /jdk8/30/Dockerfile    | 8   | 30          | Previously `30`   |
-| jdk8-sdk31  | /jdk8/31/Dockerfile    | 8   | 31          |                   |
-| jdk8-sdk32  | /jdk8/32/Dockerfile    | 8   | 32          |                   |
-| base-jdk11  | /jdk11/main/Dockerfile | 11  | -           |                   |
-| jdk11-sdk30 | /jdk11/30/Dockerfile   | 11  | 30          |                   |
-| jdk11-sdk31 | /jdk11/31/Dockerfile   | 11  | 31          |                   |
-| jdk11-sdk32 | /jdk11/32/Dockerfile   | 11  | 32          |                   |
-| base-jdk17  | /jdk17/main/Dockerfile | 17  | -           |                   |
-| jdk17-sdk33 | /jdk17/33/Dockerfile   | 17  | 33          |                   |
-| jdk17-sdk34 | /jdk17/34/Dockerfile   | 17  | 34          |                   |
+| Tag             | Dockerfile                 | JDK | Android SDK | Notes             |
+|:----------------|:---------------------------|:----|:------------|:------------------|
+| base-jdk8       | /jdk8/main/Dockerfile      | 8   | -           | Previously `base` |
+| jdk8-sdk26      | /jdk8/26/Dockerfile        | 8   | 26          | Previously `26`   |
+| jdk8-sdk27      | /jdk8/27/Dockerfile        | 8   | 27          | Previously `27`   |
+| jdk8-sdk28      | /jdk8/28/Dockerfile        | 8   | 28          | Previously `28`   |
+| jdk8-sdk29      | /jdk8/29/Dockerfile        | 8   | 29          | Previously `29`   |
+| jdk8-sdk30      | /jdk8/30/Dockerfile        | 8   | 30          | Previously `30`   |
+| jdk8-sdk31      | /jdk8/31/Dockerfile        | 8   | 31          |                   |
+| jdk8-sdk32      | /jdk8/32/Dockerfile        | 8   | 32          |                   |
+| base-jdk11      | /jdk11/main/Dockerfile     | 11  | -           |                   |
+| jdk11-sdk30     | /jdk11/30/Dockerfile       | 11  | 30          |                   |
+| jdk11-sdk31     | /jdk11/31/Dockerfile       | 11  | 31          |                   |
+| jdk11-sdk32     | /jdk11/32/Dockerfile       | 11  | 32          |                   |
+| base-jdk17      | /jdk17/main/Dockerfile     | 17  | -           |                   |
+| jdk17-sdk33     | /jdk17/33/Dockerfile       | 17  | 33          |                   |
+| jdk17-sdk33-git | /jdk17/33-git/Dockerfile   | 17  | 33          | + Git             |
+| jdk17-sdk34     | /jdk17/34/Dockerfile       | 17  | 34          |                   |
+| jdk17-sdk34-git | /jdk17/34-git/Dockerfile   | 17  | 34          | + Git             |
 
 # Tags with TeamCity agents, Android SDK and NodeJS #
 
